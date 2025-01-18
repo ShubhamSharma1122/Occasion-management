@@ -1,0 +1,283 @@
+//Save it With StartHomePage.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Event Planner</title>
+  <link rel="stylesheet" href="StartHomePage.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Smart Event Planner</div>
+      <nav>
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#events">Event Types</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#company">Company</a></li>
+        </ul>
+          <div id="dynamic-content" style="display: none; padding: 20px; background-color: #ff6f00; color: white;">
+  <h2 id="content-title"></h2>
+  <p id="content-body"></p>
+</div>
+
+      </nav>
+      <div class="header-right">
+        <a href="Register1.jsp" class="signup-link">
+          <button class="signin-btn">Sign Up</button>
+        </a>
+        <a href="BeforeLogin.jsp" class="signin-link">
+          <span class="login-icon">&#128100;</span> Sign In
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+   <!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Smart Event Planner</h1>
+    <p>Streamline event planning with a cutting-edge platform designed for in-person, virtual, and hybrid events.</p>
+    <button class="cta-btn" id="learn-more-btn">Learn More</button>
+  </div>
+</section>
+
+<!-- Hidden Project Information -->
+<div id="project-info">
+  <h2>About Smart Event Planner</h2>
+  <p>Smart Event Planner is a comprehensive event management platform designed to simplify event planning and execution. Whether it's an in-person, virtual, or hybrid event, our software has got you covered!</p>
+  <ul>
+    <li><strong>Event Registration:</strong> Easily create and manage registration forms.</li>
+    <li><strong>Real-Time Notifications:</strong> Keep attendees updated with live alerts.</li>
+    <li><strong>Multi-Event Support:</strong> Plan multiple events simultaneously.</li>
+    <li><strong>Data Insights:</strong> Generate actionable reports and analytics.</li>
+  </ul>
+  <p>With Smart Event Planner, you can focus on creating unforgettable experiences while we handle the logistics.</p>
+</div>
+
+
+    <!-- Statistics Section -->
+    <div class="statistics">
+      <h2>INDIA'S MOST LOVED EVENT MANAGEMENT PLATFORM ❤️</h2>
+      <div class="statistics-container">
+        <div class="stat-box">
+          <h3>6,000+</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat-box">
+          <h3>2 Crore+</h3>
+          <p>Monthly Interactions</p>
+        </div>
+        <div class="stat-box">
+          <h3>100,000+</h3>
+          <p>New Monthly Signups</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vision, Mission, CEO, and Other Details Section -->
+    <section class="company-info">
+      <div class="card-container">
+
+        <!-- CEO Card (Now Appears First) -->
+        <div class="card ceo-card">
+          <h3>Meet Our CEO</h3>
+          <p>Visionary leadership drives success. Meet:</p>
+          <h2 class="ceo-name">Er. <span>Shubham Sharma</span></h2>
+          <p>With over 3+ years of expertise in technology and event planning, Er. Shubham Sharma is revolutionizing how the world hosts events. Under his leadership, innovation meets impact.</p>
+        </div>
+
+        <!-- Vision Card (Moved Below CEO Card) -->
+        <div class="card">
+          <h3 class="highlight">Our Vision</h3>
+          <p>To revolutionize event management by creating seamless and engaging experiences that inspire connections and innovation.</p>
+          <p><strong>- <span class="vision-name">Shivraj Singh Panwar</span></strong></p>
+        </div>
+
+        <!-- Mission Card -->
+        <div class="card">
+          <h3 class="highlight">Our Mission</h3>
+          <p>Empowering event organizers with tools to streamline operations, engage audiences, and achieve event excellence worldwide.</p>
+          <p><strong>- <span class="mission-name">Shivanshu Raghuwanshi</span></strong></p>
+        </div>
+
+        <!-- Core Values -->
+        <div class="card">
+          <h3>Our Core Values</h3>
+          <ul>
+            <li>Innovation</li>
+            <li>Integrity</li>
+            <li>Customer Success</li>
+            <li>Collaboration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- User Testimonials Section (Centered) -->
+    <section class="testimonials">
+      <h2 class="section-title">What Our Users Say</h2>
+      <div class="card-container">
+        <!-- Testimonial 1 -->
+        <div class="card testimonial-card">
+          <p>"Smart Event Planner made organizing our annual conference a breeze. The platform is user-friendly and efficient!"</p>
+          <p><strong>- Shree Atul , Event Organizer</strong></p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="card testimonial-card">
+          <p>"I was able to manage a hybrid event effortlessly, engaging both in-person and virtual attendees seamlessly."</p>
+          <p><strong>- Abhishank , Corporate Manager</strong></p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="card testimonial-card">
+          <p>"From scheduling to attendee management, everything was straightforward and well-organized."</p>
+          <p><strong>- Anjali Mishra, Freelancer</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event Images Section -->
+    <section class="event-images">
+      <h2>Memorable Events We've Hosted</h2>
+      <div class="event-images-container">
+        <div class="event-image">
+          <img src="event1.jpeg" alt="Event 1">
+        </div>
+        <div class="event-image">
+          <img src="event4.jpeg" alt="Event 2">
+        </div>
+        <div class="event-image">
+          <img src="event3.jpeg" alt="Event 3">
+        </div>
+      </div>
+    </section>
+<!-- Additional Section: Inspirational Cards -->
+<section class="inspirational-cards">
+  <h2 class="section-title">Inspiration and Celebration</h2>
+  <div class="card-container">
+    <!-- Azadi Ka Amrit Mahotsav Card -->
+    <div class="card celebration-card">
+      <h3>75 Azadi Ka Amrit Mahotsav</h3>
+      <p>Celebrating 75 years of India's independence, cherishing our freedom, and honoring the sacrifices of our great leaders.</p>
+      <img src="azadi-ka-amrit-mahotsav.jpeg" alt="75 Azadi Ka Amrit Mahotsav" class="card-image">
+    </div>
+
+    <!-- Mahatma Gandhi Card -->
+    <div class="card inspiration-card">
+      <h3>Mahatma Gandhi</h3>
+      <p>"Be the change that you wish to see in the world."</p>
+      <img src="mahatma-gandhi.jpeg" alt="Mahatma Gandhi" class="card-image">
+    </div>
+
+    <!-- Hanuman Ji Card -->
+<div class="card inspiration-card">
+  <h3>Lord Hanuman</h3>
+  <p>"Strength, devotion, and selflessness are the path to greatness."</p>
+  <img src="hanuman-ji.jpeg" alt="Lord Hanuman" class="card-image">
+</div>
+  </div>
+</section>
+
+<!-- Video Section: Held Events -->
+<!-- Video Section: Held Events -->
+<!-- Video Section: Held Events -->
+<section class="event-video" style="background-color: #ff6f00;">
+  <h2 class="section-title" style="color: white;">Highlights from Our Events</h2>
+  <div class="video-container">
+    <iframe 
+      width="800" 
+      height="450" 
+      src="https://www.youtube.com/embed/0_INThU3gTg" 
+      title="Event Highlights" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+    <p style="color: white;">Experience the energy and excitement of our memorable events in this highlight video!</p>
+  </div>
+</section>
+
+<!-- Marquee Section -->
+<section class="software-marquee">
+  <marquee 
+    behavior="scroll" 
+    direction="left" 
+    scrollamount="10" 
+    class="marquee-text">
+    Welcome to <strong>Smart Event Planner</strong> – Your Ultimate Event Management Solution!
+  </marquee>
+</section>
+
+<!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2 class="footer-logo">Smart Event Planner</h2>
+          <p>Where innovation meets unforgettable event experiences.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Helpful Links</h3>
+          <ul>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#refund">Refund Policy</a></li>
+            <li><a href="#terms">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Get in Touch</h3>
+          <ul>
+            <li>Email: <a href="mailto:support@smarteventplanner.com">support@smarteventplanner.com</a></li>
+            <li>Support Hours: 9 AM - 6 PM</li>
+            
+            <li>Phone: <a href="tel:+7879404716">+7879404716</a></li>
+          </ul>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank">
+            <img src="8.jpeg" alt="Facebook" class="icon">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="12.jpeg" alt="Twitter" class="icon">
+          </a>
+          <a href="https://youtube.com" target="_blank">
+            <img src="4.jpeg" alt="YouTube" class="icon">
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="7.jpeg" alt="Instagram" class="icon">
+          </a>
+          <a href="https://linkedin.com" target="_blank">
+            <img src="5.jpeg" alt="LinkedIn" class="icon">
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Smart Event Planner. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+    <script>
+  document.getElementById('learn-more-btn').addEventListener('click', function() {
+    const projectInfo = document.getElementById('project-info');
+    if (projectInfo.style.display === 'none' || projectInfo.style.display === '') {
+      projectInfo.style.display = 'block'; // Show the content
+      this.textContent = 'Show Less'; // Change button text
+    } else {
+      projectInfo.style.display = 'none'; // Hide the content
+      this.textContent = 'Learn More'; // Reset button text
+    }
+  });
+</script>
+
+</body>
+</html>
