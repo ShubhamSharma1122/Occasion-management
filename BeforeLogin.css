@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Nov, 2024, 3:53:30 PM
+    Author     : Shiva
+*/
+
+/* Reset some defaults for cross-browser compatibility */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+}
+
+/* Container styling */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Box */
+.login-box {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Title */
+.login-box h2 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Highlighted text */
+.highlight {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Form labels */
+.login-box label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #34495e;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Input fields */
+.login-box input[type="email"],
+.login-box input[type="password"],
+.login-box select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.login-box input[type="email"]:focus,
+.login-box input[type="password"]:focus,
+.login-box select:focus {
+    border-color: #3498db;
+    background-color: #eef2f7;
+    outline: none;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Register link */
+.register-link {
+    display: block;
+    margin-top: 15px;
+    color: #3498db;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link:hover {
+    color: #2980b9;
+}
